@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "description": "AI Agent Rules and Workflows",
+  "version": "1.0.0",
+  "tags": [
+    "google antigravity"
+  ],
+  "rules": [
+    {
+      "name": "database.md",
+      "path": "rules/backend/",
+      "description": "desc",
+      "conceptTrigger": "always"
+    }
+  ],
+  "workflows": []
+}
