@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "name": "test",
   "description": "AI Agent Rules and Workflows",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "tags": [
     "rulebix",
     "agent"
