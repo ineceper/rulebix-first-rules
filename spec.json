@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "name": "test",
+  "description": "AI Agent Rules and Workflows",
+  "version": "1.0.1",
+  "tags": [
+    "rulebix",
+    "agent"
+  ],
+  "license": "CC-BY-4.0",
+  "entries": [
+    {
+      "id": "test-rules",
+      "type": "rule",
+      "path": "rules/Test Rules.md",
+      "description": "this is rules",
+      "trigger": {
+        "mode": "manual"
+      }
+    },
+    {
+      "id": "new-skill",
+      "type": "skill",
+      "path": "skills/new-skill",
+      "description": "skill",
+      "trigger": {
+        "mode": "always"
+      }
+    },
+    {
+      "id": "this-is-workflow",
+      "type": "workflow",
+      "path": "workflows/this is workflow.md",
+      "description": "workflow",
+      "trigger": {
+        "mode": "manual"
+      }
+    }
+  ]
+}
